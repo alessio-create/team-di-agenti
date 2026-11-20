@@ -1,0 +1,9 @@
+name: ricercatore
+display_name: Ada
+role: Ricercatore
+reports_to: capo-dello-staff
+model: inherit                    # Pro: il modello della sessione; Paperclip: scelto all'import
+tools: [Read, Write, Glob, WebSearch, WebFetch]
+budget_monthly_usd: 5
+heartbeat: off
+channels: [chat]

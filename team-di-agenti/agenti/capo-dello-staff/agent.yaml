@@ -1,0 +1,9 @@
+name: capo-dello-staff
+display_name: Leo
+role: Capo dello Staff
+reports_to: owner
+model: inherit                    # Pro: il modello della sessione; Paperclip: scelto all'import
+tools: [Read, Write, Glob, Agent]
+budget_monthly_usd: 10
+heartbeat: every-4h
+channels: [chat, telegram]

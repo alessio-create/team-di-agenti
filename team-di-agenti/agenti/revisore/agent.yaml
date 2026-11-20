@@ -1,0 +1,9 @@
+name: revisore
+display_name: Vito
+role: Revisore
+reports_to: capo-dello-staff
+model: inherit                    # Pro: il modello della sessione; Paperclip: scelto all'import
+tools: [Read, Glob, WebSearch, WebFetch]
+budget_monthly_usd: 3
+heartbeat: off
+channels: [chat]
