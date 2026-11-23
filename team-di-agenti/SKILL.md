@@ -12,4 +12,5 @@ Run the user's team. Speak Italian to the user.
    - configure / change the profile ("configura", "configura il team dal mio sito", "setup", "cambia il tono"…) → `references/setup.md`
    - add or change an agent ("nuovo agente", "aggiungi un agente", "proponimi degli agenti", "mi serve un agente per…", "<Nome>: più breve") → `references/nuovo-agente.md`
    - anything else, i.e. a goal to get done ("capo, …", "prepara…", "organizza…", "briefing", "buongiorno capo", "piano contenuti") → `references/capo.md`
-3. If the profile is missing and the intent is not setup, say: "Prima configuriamo il team (5 minuti): scrivimi «configura il team»." and stop.
+3. If the profile is missing and the user asks the team to introduce itself ("presentati", "chi siete"), introduce the team from `agenti/` (name, role, one line each), then end with the sentence below.
+4. If the profile is missing and the intent is anything else but setup, say: "Prima configuriamo il team (5 minuti): scrivimi «configura il team»." and stop.
